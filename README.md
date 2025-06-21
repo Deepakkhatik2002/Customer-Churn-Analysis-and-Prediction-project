@@ -1,13 +1,14 @@
 # Customer-Churn-Analysis-and-Prediction-project
 
 Project Description
+
 Hi everyone! I’m excited to share a cool project I worked on during my Saiket Systems internship. This project focuses on helping a telecom company understand why customers leave (called "churn") and predict it using machine learning. The aim? Provide insights to keep customers happy and reduce churn. I used the Telco_Customer_Churn_Dataset.csv and completed four key tasks with Python, pandas, numpy, and scikit-learn.
 First, I tackled Data Preparation. I loaded the dataset, fixed missing values (like filling gaps in TotalCharges with the median), and converted text data, such as contract types, into numbers for machine learning. I also dropped the customerID column since it wasn’t needed. This got the data ready for analysis.
 Next, for Data Splitting, I divided the data into 80% for training and 20% for testing. This split helps train the model and check its performance. I scaled numerical features like tenure and MonthlyCharges to ensure consistency.
 In Feature Selection, I used SelectKBest to pick the top 10 factors affecting churn, like contract type and monthly charges. This step made the model more focused and efficient.
 Finally, for Model Selection, I explored four machine learning models: Logistic Regression, Decision Tree, Random Forest, and Gradient Boosting. Each is great for predicting churn, and I listed their strengths for this dataset.
 The code runs smoothly, showing missing value fixes, selected features, and model options. This project taught me data preprocessing, feature selection, and model basics. Check out my LinkedIn video for a code walkthrough! #SaiketSystems #SaiketInnovation #SaiketAchievements #SaiketProjects
-Word count: 300
+
 What You Need to Run This Project
 To run this project, you’ll need:
 
